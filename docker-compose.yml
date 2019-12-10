@@ -8,6 +8,7 @@ services:
       dockerfile: Dockerfile
     ports: ['3000:3000']
     volumes:
+      - ./public:/usr/src/app/public
       - ./src:/usr/src/app/src
       - ./node_modules:/usr/src/cache
     environment:

@@ -1,20 +1,26 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Layout from '../components/Layout'
 import fetch from 'node-fetch'
 
-const Index = (props) => (
-    <Layout>
-        <p>Hello Next.js</p>
-        {props.data.access_token}
-    </Layout>
-);
+const Index = (props) => {
+    useEffect(() => {
+        const script = document.createElement('script');
 
-Index.getInitialProps = async function() {
-    const res = await fetch('http://localhost:3000/api/token');
-    const json = await res.json();
-    return {
-        data: json.data
-    };
+        script.src = "/plugin/index.js";
+        script.async = true;
+
+        document.body.appendChild(script);
+
+        return () => {
+            document.body.removeChild(script);
+        }
+    }, []);
+
+    return (
+        <Layout>
+            <div id="bee-plugin-container"/>
+        </Layout>
+    )
 };
 
 export default Index
