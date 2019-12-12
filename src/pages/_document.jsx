@@ -11,7 +11,7 @@ class MyDocument extends Document {
 
     getToken() {
         const { data } = this.props;
-        return `window.token="${data.access_token}"`;
+        return `window.token=${JSON.stringify(data)}`;
     };
 
     render() {
@@ -19,6 +19,7 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
+                    <script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript" />
                     <script src="https://app-rsrc.getbee.io/plugin/BeePlugin.js" type="text/javascript" />
                     <script dangerouslySetInnerHTML={{__html: script}}/>
                 </Head>

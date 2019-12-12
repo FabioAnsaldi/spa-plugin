@@ -512,7 +512,7 @@
                                             {
                                                 "text": "",
                                                 "image": {
-                                                    "src": "repository_path/img/t-outline-circle-dark-gray/facebook.png",
+                                                    "src": "http://localhost:3000/img/t-outline-circle-dark-gray/facebook.png",
                                                     "prefix": "https://www.facebook.com/",
                                                     "title": "Facebook",
                                                     "href": "https://www.facebook.com/",
@@ -524,7 +524,7 @@
                                             {
                                                 "text": "",
                                                 "image": {
-                                                    "src": "repository_path/img/t-outline-circle-dark-gray/twitter.png",
+                                                    "src": "http://localhost:3000/img/t-outline-circle-dark-gray/twitter.png",
                                                     "prefix": "http://twitter.com/",
                                                     "title": "Twitter",
                                                     "href": "http://twitter.com/",
@@ -536,7 +536,7 @@
                                             {
                                                 "text": "",
                                                 "image": {
-                                                    "src": "repository_path/img/t-outline-circle-dark-gray/instagram@2x.png",
+                                                    "src": "http://localhost:3000/img/t-outline-circle-dark-gray/instagram@2x.png",
                                                     "prefix": "https://instagram.com/",
                                                     "title": "Instagram",
                                                     "href": "https://instagram.com/",

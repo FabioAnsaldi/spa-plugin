@@ -15,7 +15,7 @@
                                     "image": {
                                         "alt": "Image",
                                         "href": "https://beefree.io",
-                                        "src": "img/placeholder_logo_3.png"
+                                        "src": "http://localhost:3000/img/placeholder_logo_3.png"
                                     },
                                     "style": {
                                         "padding-bottom": "10px",
@@ -168,7 +168,7 @@
                                     "image": {
                                         "alt": "Image",
                                         "href": "https://beefree.io",
-                                        "src": "img/placeholder_big_2.png"
+                                        "src": "http://localhost:3000/img/placeholder_big_2.png"
                                     },
                                     "style": {
                                         "padding-bottom": "0px",
@@ -319,7 +319,7 @@
                                     },
                                     "image": {
                                         "alt": "Image",
-                                        "src": "img/placeholder_medium_1.png",
+                                        "src": "http://localhost:3000/img/placeholder_medium_1.png",
                                         "href": "https://beefree.io",
                                         "dynamicSrc": ""
                                     },
@@ -503,7 +503,7 @@
                                     "image": {
                                         "alt": "Image",
                                         "href": "https://beefree.io",
-                                        "src": "img/placeholder_medium_1.png"
+                                        "src": "http://localhost:3000/img/placeholder_medium_1.png"
                                     },
                                     "style": {
                                         "padding-bottom": "0px",
@@ -685,7 +685,7 @@
                                     "image": {
                                         "alt": "Image",
                                         "href": "https://beefree.io",
-                                        "src": "img/placeholder_medium_1.png"
+                                        "src": "http://localhost:3000/img/placeholder_medium_1.png"
                                     },
                                     "style": {
                                         "padding-bottom": "0px",
@@ -944,7 +944,7 @@
                                                 "image": {
                                                     "alt": "Facebook",
                                                     "prefix": "https://www.facebook.com/",
-                                                    "src": "repository_path/img/t-circle-white/facebook.png",
+                                                    "src": "http://localhost:3000/img/t-circle-white/facebook.png",
                                                     "href": "https://www.facebook.com/",
                                                     "title": "Facebook"
                                                 },
@@ -956,7 +956,7 @@
                                                 "image": {
                                                     "alt": "Twitter",
                                                     "prefix": "http://twitter.com/",
-                                                    "src": "repository_path/img/t-circle-white/twitter.png",
+                                                    "src": "http://localhost:3000/img/t-circle-white/twitter.png",
                                                     "href": "http://twitter.com/",
                                                     "title": "Twitter"
                                                 },
@@ -968,7 +968,7 @@
                                                 "image": {
                                                     "alt": "Instagram",
                                                     "prefix": "https://instagram.com/",
-                                                    "src": "repository_path/img/t-circle-white/instagram@2x.png",
+                                                    "src": "http://localhost:3000/img/t-circle-white/instagram@2x.png",
                                                     "href": "https://instagram.com/",
                                                     "title": "Instagram"
                                                 },

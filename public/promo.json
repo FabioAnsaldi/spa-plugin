@@ -840,7 +840,7 @@
                                                     "prefix": "https://www.facebook.com/",
                                                     "href": "https://www.facebook.com/",
                                                     "alt": "Facebook",
-                                                    "src": "repository_path/img/t-outline-circle-color/facebook.png"
+                                                    "src": "http://localhost:3000/img/t-outline-circle-color/facebook.png"
                                                 },
                                                 "name": "facebook",
                                                 "type": "follow",
@@ -852,7 +852,7 @@
                                                     "prefix": "http://twitter.com/",
                                                     "href": "http://twitter.com/",
                                                     "alt": "Twitter",
-                                                    "src": "repository_path/img/t-outline-circle-color/twitter.png"
+                                                    "src": "http://localhost:3000/img/t-outline-circle-color/twitter.png"
                                                 },
                                                 "name": "twitter",
                                                 "type": "follow",
@@ -864,7 +864,7 @@
                                                     "prefix": "https://instagram.com/",
                                                     "href": "https://instagram.com/",
                                                     "alt": "Instagram",
-                                                    "src": "repository_path/img/t-outline-circle-color/instagram@2x.png"
+                                                    "src": "http://localhost:3000/img/t-outline-circle-color/instagram@2x.png"
                                                 },
                                                 "name": "instagram",
                                                 "type": "follow",

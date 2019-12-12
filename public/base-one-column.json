@@ -132,7 +132,7 @@
                                     "image": {
                                         "href": "https://beefree.io",
                                         "alt": "Image",
-                                        "src": "img/placeholder_big_2.png"
+                                        "src": "http://localhost:3000/img/placeholder_big_2.png"
                                     },
                                     "computedStyle": {
                                         "class": "center  autowidth  fullwidth",
@@ -367,7 +367,7 @@
                                                     "prefix": "http://twitter.com/",
                                                     "title": "Twitter",
                                                     "alt": "Twitter",
-                                                    "src": "repository_path/img/t-circle-white/twitter.png"
+                                                    "src": "http://localhost:3000/img/t-circle-white/twitter.png"
                                                 },
                                                 "name": "twitter",
                                                 "type": "follow",
@@ -379,7 +379,7 @@
                                                     "prefix": "https://www.facebook.com/",
                                                     "title": "Facebook",
                                                     "alt": "Facebook",
-                                                    "src": "repository_path/img/t-circle-white/facebook.png"
+                                                    "src": "http://localhost:3000/img/t-circle-white/facebook.png"
                                                 },
                                                 "name": "facebook",
                                                 "type": "follow",
@@ -391,7 +391,7 @@
                                                     "prefix": "https://instagram.com/",
                                                     "title": "Instagram",
                                                     "alt": "Instagram",
-                                                    "src": "repository_path/img/t-circle-white/instagram@2x.png"
+                                                    "src": "http://localhost:3000/img/t-circle-white/instagram@2x.png"
                                                 },
                                                 "name": "instagram",
                                                 "type": "follow",

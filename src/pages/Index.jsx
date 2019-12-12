@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react'
 import Layout from '../components/Layout'
-import fetch from 'node-fetch'
 
 const Index = (props) => {
     useEffect(() => {
@@ -18,7 +17,7 @@ const Index = (props) => {
 
     return (
         <Layout>
-            <div id="bee-plugin-container"/>
+            <div id="bee-plugin-container" style={{height: '500px'}}/>
         </Layout>
     )
 };
